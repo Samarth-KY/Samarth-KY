@@ -6,6 +6,9 @@ I build intelligent vision systems for autonomous robots. My work spans **3D per
 
 ## Featured Projects
 
+### [3D Bounding Box Detector](https://github.com/Samarth-KY/3D-BoundingBox)
+- End-to-end 3D bounding box prediction pipeline for bin-picking scenes, combining PointNet++ backbone with custom anchor point injection to regress 8-corner box coordinates from RGB images, point clouds, and instance masks. Features a custom loss with edge consistency and diagonal regularization, edge-deployment support via ONNX export, and ablation experiments across three model variants.
+
 ### [Object-Tracker-YOLOv8-DeepSORT](https://github.com/Samarth-KY/Object-Tracker-YOLOv8-DeepSORT)
 - Real-time multi-object tracking combining YOLO detection, DeepSORT, and Kalman filtering. Features optical flow-based motion prediction and Siamese CNN for re-identification. Achieves **30+ FPS** with robust handling of occlusions.
 
